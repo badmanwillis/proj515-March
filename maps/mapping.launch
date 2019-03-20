@@ -1,0 +1,21 @@
+<launch>
+
+
+	<!--Transformation Configuration, to publish the Lidar tf -->
+	<node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />
+		<param name="robot_description" textfile="/home/olly/proj_ws/src/alpha_urdf/src/alpha-15.xml" />
+	<node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+
+
+	<!--gmapping -->
+	<!-- <node name="slam_gmapping" pkg="gmapping" type="state_publisher" />
+		<param name="robot_description" textfile="/home/olly/proj_ws/src/alpha_urdf/src/alpha-15.xml" />
+
+
+rosrun gmapping slam_gmapping scan:=scan
+
+rosparam set use_sim_time true -->
+
+
+
+</launch> 

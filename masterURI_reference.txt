@@ -1,0 +1,36 @@
+
+export ROS_IP=10.188.172.141;export ROS_MASTER_URI=http://10.188.76.182:11311
+
+
+olly
+10.188.172.141 
+
+
+
+elliott
+10.188.76.182
+
+mason
+
+sam
+
+luka
+10.188.184.36
+
+WIFI ARTG molesmoles
+
+olly
+192.168.1.140 
+
+elliott
+192.168.1.146
+
+
+elliott and olly
+export ROS_IP=192.168.1.140 ;export ROS_MASTER_URI=http://192.168.1.146:11311
+
+olly and luka
+export ROS_IP=192.168.1.128 ;export ROS_MASTER_URI=http://192.168.1.140:11311
+
+When running the master machine, export ROS_IP  is required
+export ROS_IP=192.168.1.140

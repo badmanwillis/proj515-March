@@ -1,0 +1,8 @@
+prefix=/home/olly/proj_ws/install
+
+Name: joy2vel
+Description: Description of joy2vel
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/olly/proj_ws/install/lib 
+Requires: 

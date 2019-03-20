@@ -1,0 +1,8 @@
+prefix=/home/olly/proj_ws/devel
+
+Name: alpha_urdf
+Description: Description of alpha_urdf
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/olly/proj_ws/devel/lib 
+Requires: 

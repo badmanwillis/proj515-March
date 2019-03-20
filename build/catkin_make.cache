@@ -1,0 +1,2 @@
+alpha_2dnav:alpha_urdf:beta_urdf:imu_tools/imu_complementary_filter:imu_tools/imu_filter_madgwick:imu_tools/imu_tools:imu_tools/rviz_imu_plugin:joy2vel:phidgets_drivers/libphidget21:phidgets_drivers/phidgets_api:phidgets_drivers/phidgets_drivers:phidgets_drivers/phidgets_high_speed_encoder:phidgets_drivers/phidgets_ik:phidgets_drivers/phidgets_imu:r2d2:robot_localization:robot_setup_tf:rplidar_ros-master:simple_nav_goals
+-DCATKIN_DEVEL_PREFIX=/home/olly/proj_ws/devel -DCMAKE_INSTALL_PREFIX=/home/olly/proj_ws/install -G Unix Makefiles

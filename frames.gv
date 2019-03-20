@@ -1,0 +1,12 @@
+digraph G {
+"base_link" -> "laser"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1552386172.809 sec old)\nBuffer length: 0.000 sec\n"];
+"odom" -> "imu"[label="Broadcaster: /ekf_se\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1552386172.809 sec old)\nBuffer length: 0.000 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1552386172.809"[ shape=plaintext ] ;
+ }->"base_link";
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1552386172.809"[ shape=plaintext ] ;
+ }->"odom";
+}

@@ -1,0 +1,8 @@
+prefix=/home/olly/proj_ws/devel
+
+Name: libphidget21
+Description: Description of libphidget21
+Version: 0.7.7
+Cflags: 
+Libs: -L/home/olly/proj_ws/devel/lib 
+Requires: 

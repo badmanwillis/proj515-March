@@ -1,0 +1,8 @@
+prefix=/home/olly/proj_ws/install
+
+Name: motorcontrol
+Description: Description of motorcontrol
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/olly/proj_ws/install/lib 
+Requires: 

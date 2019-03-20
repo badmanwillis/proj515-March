@@ -1,0 +1,8 @@
+prefix=/home/olly/proj_ws/install
+
+Name: sam
+Description: Description of sam
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/olly/proj_ws/install/lib 
+Requires: 

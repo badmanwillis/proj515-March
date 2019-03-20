@@ -1,0 +1,12 @@
+
+<launch>
+
+	
+
+	<param name="robot_description" textfile="/home/olly/proj_ws/src/alpha_urdf/src/alpha-15.xml" />
+
+
+
+	<node type="rviz" name="rviz" pkg="rviz" args="-d /home/olly/default.rviz" />
+
+</launch>
